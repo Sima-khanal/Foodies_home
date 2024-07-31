@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Foodies</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="Foodies.css">
+</head>
+<body>
+    <nav class="navbar1">
+        <div class="calendar-container" input type="date" id="calendar">
+            <span id="current-date"></span>
+        </div>
+        <div class="Foodies-Planet">
+            Foodies Planet
+        </div>
+        <div class="quotes-container">
+            <span id="quote"></span>
+        </div>
+        <div class="quote-buttons">
+            <button id="prev-quote">&larr;</button>
+            <button id="next-quote">&rarr;</button>
+        </div>
+    </nav>
+
+    <nav class="navbar2">
+        <div class="logo">
+            <img src="Serve the taste.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li class="dropdown">
+                <a href="# Team-Members">Teams</a>
+                <div class="dropdown-content">
+                    <a href="#Sandhya">
+                        <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.6435-9/83810159_585901875595792_8285062235483537408_n.jpg?stp=c0.67.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=5df8b4&_nc_ohc=tri1BsboYikQ7kNvgGpMkPm&_nc_ht=scontent.fktm1-1.fna&gid=AaDfxJJfjdGfVBDVjDKACO6&oh=00_AYD0__PIbysQlSlIfnX4FMEY3isGXfv0TiPhDhxjz7KFaA&oe=66D12475" alt="Team 1">
+                        <p>Sandhya</p>
+                    </a>
+                    <a href="#Menuka">
+                        <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/298714931_102025585958790_3454503641597579870_n.jpg?stp=c0.53.206.206a_dst-jpg_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=7a06f5&_nc_ohc=E_gu8TBty2IQ7kNvgFzwAvQ&_nc_ht=scontent.fktm1-1.fna&oh=00_AYAMzz5J60356Ks32nhclJJsNBg4cM3gAdVfnx_kZGXdKA&oe=66AF955C" alt="Team 2">
+                        <p>Menuka</p>
+                    </a>
+                    <a href="#Sima">
+                        <img src="Sima.jpg" alt="Team 1">
+                        <p>Sima</p>
+                    </a>
+                    <a href="#Rabeena">
+                        <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/275688151_2695176853959829_7551984914884287498_n.jpg?stp=c0.29.206.206a_dst-jpg_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=SJOiOcR5zHUQ7kNvgERabCb&_nc_ht=scontent.fktm1-1.fna&oh=00_AYBludT1sHDMSrFlW9UGAoP7UxICNB7tBQEugoXF8hhG7Q&oe=66AF967A" alt="Team 1">
+                        <p>Rabeena</p>
+                    </a>
+                </div>
+            </li>
+            <li><a href="#Our-Offers">Our Offers</a></li>
+            <li class="dropdown">
+                <a href="# login-signup" class="login-btn">Login/Sign Up</a>
+                <div class="dropdown-content login-form">
+                    <form action="#form">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Login</button>
+                        <p>Don't have an account? <a href="#">Sign Up</a></p>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="Home" id="Home">
+        <h1>Home</h1>
+        <div class="content">
+            <div class="text">
+                <h2>Welcome to Our Foodies Home</h2>
+                <p>At our restaurant, we bring you the authentic flavors of Nepal. Our chefs use traditional recipes and the freshest ingredients to prepare delicious dishes that will transport you to the heart of the Himalayas.</p>
+                <h3>Our Special and Most Ordered Dish</h3>
+                <p>Momo is a type of South Asian dumpling native to Tibet, Nepal, and the regions surrounding the Himalayas. It is one of the most popular fast foods in Nepal. These delicious dumplings are usually filled with minced meat, vegetables, and a variety of spices, then steamed to perfection. Served with a spicy dipping sauce, momo is a dish that you must try!</p>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/e3/e4/18/e3e41808e26abfe2bcb370345192bda7.jpg" alt="Momo - Nepalese Dumplings">
+                <figcaption>Momo - Nepalese Dumplings</figcaption>
+            </div>
+        </div>
+    </section>
+    <section class="about-us" id="about-us">
+        <h1>About Us</h1>
+        <div class="content">
+            <div class="text">
+                <h2>Welcome to Our Nepalese Restaurant</h2>
+                <p>At our restaurant, we bring you the authentic flavors of Nepal. Our chefs use traditional recipes and the freshest ingredients to prepare delicious dishes that will transport you to the heart of the Himalayas.</p>
+                <h3>Our Special and Most Ordered Dish</h3>
+                <p>Momo is a type of South Asian dumpling native to Tibet, Nepal, and the regions surrounding the Himalayas. It is one of the most popular fast foods in Nepal. These delicious dumplings are usually filled with minced meat, vegetables, and a variety of spices, then steamed to perfection. Served with a spicy dipping sauce, momo is a dish that you must try!</p>
+                <h3>What is famous here?</h3>
+                <p>"Thakali Khana" is a traditional meal originating from the Thakali people of Nepal. It is renowned for its balanced and flavorful components, typically including rice, lentils, meat, vegetables, and a variety of pickles and condiments. </p>
+                <h3>Keema Noodles</h3>
+                <p>Keema Noodles is a delicious and flavorful fusion dish that combines the spiced ground meat (keema) with noodles. It's a popular street food and home-cooked meal in many parts of South Asia. </p>
+                <h3>Pasta</h3>
+                <p>To make a classic pasta dish, cook the pasta according to package instructions, then drain and set aside. Sauté garlic slices in olive oil with red pepper flakes, then toss the cooked pasta with the garlic oil and season with salt, black pepper, and chopped parsley. For variations, try adding a creamy Alfredo sauce, a tomato basil sauce, or mix in vegetables for a pasta primavera. Garnish with Parmesan cheese and fresh herbs for added flavor.</p>
+                <h3>Rice Krispie Treats</h3>
+                <p>To make Rice Krispie Treats, melt butter in a large pan and then mix in mini marshmallows until fully melted and smooth. Stir in Rice Krispies cereal until evenly coated with the marshmallow mixture. Press the mixture into a greased pan, and let it cool and set. Once firm, cut into squares and enjoy these simple, crispy, and sweet treats.</p>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/74/82/d1/7482d1cb5cce14b353b0583b09e72dc9.jpg" alt="Momo - Nepalese Dumplings">
+                <figcaption>Momo - Nepalese Dumplings</figcaption>
+            </div>
+        </div>
+    </section>
+
+    <section id="Team-Members" class="Our-Teams">
+        <h1>Our Teams</h1>
+        <div class="Team-Members" id="Team-Members">
+            <div class="team-member" id="Sandhya">
+                <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.6435-9/83810159_585901875595792_8285062235483537408_n.jpg?stp=c0.67.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=5df8b4&_nc_ohc=tri1BsboYikQ7kNvgGpMkPm&_nc_ht=scontent.fktm1-1.fna&gid=AaDfxJJfjdGfVBDVjDKACO6&oh=00_AYD0__PIbysQlSlIfnX4FMEY3isGXfv0TiPhDhxjz7KFaA&oe=66D12475" alt="Team Member 1">
+                <h3>Sandhya Khanal</h3>
+                <p>Executive Chef</p>
+                <p>Sandhya is an experienced chef with over 20 years in the culinary industry, specializing in Nepalese cuisine.</p>
+            </div>
+            <div class="team-member" id="Menuka">
+                <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/298714931_102025585958790_3454503641597579870_n.jpg?stp=c0.53.206.206a_dst-jpg_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=7a06f5&_nc_ohc=E_gu8TBty2IQ7kNvgFzwAvQ&_nc_ht=scontent.fktm1-1.fna&oh=00_AYAMzz5J60356Ks32nhclJJsNBg4cM3gAdVfnx_kZGXdKA&oe=66AF955C" alt="Team 2" alt="Team Member 2">
+                <h3>Menuka Khanal</h3>
+                <p>Sous Chef</p>
+                <p>Menuka is a passionate sous chef who loves to bring creativity and flavor to every dish she prepares.</p>
+            </div>
+            <div class="team-member" id="Sima">
+                <img src="Sima.jpg" alt="Team Member 3">
+                <h3>Sima Khanal</h3>
+                <p>Restaurant Manager</p>
+                <p>Sima ensures that every guest has an exceptional dining experience, managing the restaurant operations seamlessly.</p>
+            </div>
+            <div class="team-member" id="Rabina">
+                <img src="257339024_2598858040258378_1372783813579367715_n.jpg" alt="Team Member 4">
+                <h3>Rabina Khanal</h3>
+                <p>Pastry Chef</p>
+                <p>Rabina is a skilled pastry chef known for her delightful desserts and baked goods, made with love and precision.</p>
+            </div>
+            <div class="team-member" id="Seema">
+                <img src="https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/425345773_1547897606062876_2778372990478638918_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=UvaCphWsozUQ7kNvgGdDLNs&_nc_ht=scontent.fktm1-1.fna&oh=00_AYCK9N-IvxJS51rh1qaQeEwsVpxB2tOcyJvvaqunco_pkg&oe=66AF714A" alt="Team Member 5">
+                <h3>Seema Khanal</h3>
+                <p>Waitstaff Supervisor</p>
+                <p>Seema leads the waitstaff team with a commitment to excellent service and guest satisfaction.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="#Our-Offers" id="Our-Offers">
+        <h1>Our Offers</h1>
+        <div class="offers-container">
+            <div class="offer">
+                <img src="https://i.pinimg.com/236x/e8/03/16/e80316d006e91ff02f3b49e61a0051c0.jpg" alt="Free Delivery">
+                <h3>Free Delivery</h3>
+                <p>Enjoy free delivery on all orders above $50. Experience the convenience of having your favorite dishes delivered to your doorstep at no extra cost.</p>
+            </div>
+            <div class="offer">
+                <img src="https://i.pinimg.com/236x/a6/a1/f9/a6a1f97a8d961da1063fcf08ce1e5f21.jpg" alt="50% Off">
+                <h3>50% Off</h3>
+                <p>Get 50% off on your first order. This is the perfect opportunity to try our delicious dishes at half the price!</p>
+            </div>
+            <div class="offer">
+                <img src="data:image/jpeg;base64,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" alt="20% Off">
+                <h3>20% Off</h3>
+                <p>Enjoy 20% off on all orders every Monday. Start your week with a delightful meal at a discounted price.</p>
+            </div>
+            <div class="offer">
+                <img src="https://i.pinimg.com/236x/5d/46/93/5d4693b9eda5d86ab80f480a0c2bd093.jpg" alt="Win a Prize">
+                <h3>Win a Prize</h3>
+                <p>Enter our monthly raffle for a chance to win exciting prizes. Every order counts as an entry, so the more you order, the higher your chances of winning!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Foodies Home</h3>
+                <p>Welcome to Foodies Home! We are passionate about delivering delicious and authentic food to your doorstep. Enjoy the finest culinary delights and exceptional service every time you order from us.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/Simakhanal2060" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/cma_khanal/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/sima-khanal-23b210245/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.pinterest.com/seemakhanal608/" target="_blank">Pinterest</a></li>
+                    <li><a href="https://github.com/Sima-khanal" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-login" id="login-signup">
+                <h3>Login</h3>
+                <form id="form">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <button id="Signup" type="submit" >Send</button>
+                </form>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Phone: 9848327268||9823900684</p>
+                <p>Email: seemakhanal608@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Foodies Home. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Foodies.js"></script>
+</body>
+</html>
